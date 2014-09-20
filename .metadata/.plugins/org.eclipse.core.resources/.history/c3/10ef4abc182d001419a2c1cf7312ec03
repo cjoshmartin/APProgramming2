@@ -1,0 +1,42 @@
+
+import javax.swing.*;    
+
+import java.awt.*;
+import java.util.Random;       
+
+public class project411{
+
+   public static void main(String[] args){
+      JFrame theGUI = new JFrame();
+      theGUI.setTitle("Checker Board");
+      int rows = 8;
+      int cols = 8;
+      
+      theGUI.setSize(cols * 50, rows * 50);
+      theGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      Container pane = theGUI.getContentPane();
+      pane.setLayout(new GridLayout(rows, cols));
+      Random gen = new Random();
+      int red = 0;
+      int green = 0;
+      int blue = 0;
+      for (int i = 1; i <= rows * cols; i++){
+    	  int color = gen.nextInt(2);
+         if (color == 1 || red == 255 ){
+        	 ///black
+        	 red = 0;
+         }
+         else {
+        	 //red
+        	 red = 255;
+         }
+         
+        	 
+        
+         Color backColor = new Color(red, green, blue);
+         ColorPanel panel = new ColorPanel(backColor);
+         pane.add(panel);
+      }
+      theGUI.setVisible(true);
+   }
+}

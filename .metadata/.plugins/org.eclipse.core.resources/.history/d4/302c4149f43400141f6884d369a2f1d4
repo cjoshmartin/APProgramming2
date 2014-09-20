@@ -1,0 +1,26 @@
+// Example 5.2
+
+import images.APImage;
+import images.Pixel;
+import java.util.Scanner;
+
+public class TestBlank{
+
+   public static void main(String[]args){
+      Scanner reader = new Scanner(System.in);
+      APImage image = new APImage(150, 150);
+      image.draw();
+      int x;
+      int y = image.getHeight() -1 ;
+      for ( x = 0; x <= image.getWidth() -1; x++){
+         image.setPixel(x, y, new Pixel(0, 0, 255));	
+      image.draw();
+   }
+      for ( y = 0; y <= image.getWidth() -1; y++){
+      image.setPixel(x, y, new Pixel(0, 0, 255));
+   } 
+   
+}
+}
+
+      

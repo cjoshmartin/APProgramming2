@@ -1,0 +1,12 @@
+package images;
+import images.APImage;
+import images.Pixel;
+
+public class Project54 {
+
+	public static void main(String[]args){
+	
+		APImage image = new APImage("smokey.jpg");
+	
+	}
+}

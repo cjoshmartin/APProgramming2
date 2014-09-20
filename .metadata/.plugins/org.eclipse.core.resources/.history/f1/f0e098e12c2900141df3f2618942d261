@@ -1,0 +1,23 @@
+import javax.swing.*;
+
+import java.awt.*;
+
+public class Illusion extends JPanel{
+
+	public Illusion(Color color){
+	      setBackground(color);
+	   }
+	public void paintComponent (Graphics g){
+	      super.paintComponent(g);
+	      // the lines on the x-axis  
+	      g.drawLine(20, 50,150, 50 );
+	      g.drawLine(20, 20,150, 20);
+	      
+	      // the lines on the y-axis
+	      g.drawLine(150, 50,170, 70 );
+	      g.drawLine(150, 50,170, 25 );
+	}
+}
+
+	      
+	      
