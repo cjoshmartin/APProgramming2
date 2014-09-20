@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CircleArea&apos; to &apos;CircleArea45&apos;&#x0D;&#x0A;- Original project: &apos;Chapter 04&apos;&#x0D;&#x0A;- Original element: &apos;CircleArea&apos;&#x0D;&#x0A;- Renamed element: &apos;CircleArea45&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CircleArea&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/Example4.5&lt;{CircleArea.java[CircleArea" matchStrategy="1" name="CircleArea45" qualified="false" references="true" similarDeclarations="false" stamp="1408827644887" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Case Study"/>
+	<classpathentry kind="src" path="Example4.1"/>
+	<classpathentry kind="src" path="Example4.2"/>
+	<classpathentry kind="src" path="Example4.3"/>
+	<classpathentry kind="src" path="Example4.4"/>
+	<classpathentry kind="src" path="Example4.5"/>
+	<classpathentry kind="src" path="Example4.6"/>
+	<classpathentry kind="src" path="Example4.7"/>
+	<classpathentry kind="src" path="Example4.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

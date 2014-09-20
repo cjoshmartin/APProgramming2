@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;GUIWindow&apos; to &apos;GUIWindow4&apos;&#x0D;&#x0A;- Original project: &apos;Chapter 4 Projects&apos;&#x0D;&#x0A;- Original element: &apos;GUIWindow&apos;&#x0D;&#x0A;- Renamed element: &apos;GUIWindow4&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GUIWindow&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{GUIWindow.java[GUIWindow" matchStrategy="1" name="GUIWindow4" qualified="false" references="true" similarDeclarations="false" stamp="1409141262721" textual="false" version="1.0"/>
+</session>
