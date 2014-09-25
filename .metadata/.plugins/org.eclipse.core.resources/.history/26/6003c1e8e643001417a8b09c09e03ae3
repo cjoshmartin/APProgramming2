@@ -1,0 +1,75 @@
+//© A+ Computer Science  -  www.apluscompsci.com
+//Name - Josh Martin	
+//Date - 9/24/2014
+//Class - period 1
+//Lab  - Graphics and GUIs Test
+
+import java.awt.Graphics;
+import java.awt.Color;
+import java.awt.Canvas;
+
+class Robot extends Canvas
+{
+   public Robot()    //constructor method - sets up the class
+   {
+      setSize(800,600);
+      setBackground(Color.WHITE);   	
+      setVisible(true);
+   }
+
+   public void paint( Graphics window )
+   {
+      window.setColor(Color.BLUE);
+
+      window.drawString("Robot LAB ", 35, 35 );
+      
+      //call head method
+      head(window);
+      upperBody(window);
+      lowerBody(window);
+      
+      //call other methods
+      
+   }
+
+   public void head( Graphics window )
+   {
+      window.setColor(Color.YELLOW);
+      window.fillOval(300, 100, 200, 100);
+      // fix this
+      window.setColor(Color.BLACK);
+      window.fillOval(300, 200, 25, 25);
+      
+      window.setColor(Color.GREEN);
+      window.fillOval(320, 120, 25, 25);
+      window.fillOval(430, 120, 25, 25);
+      
+      window.setColor(Color.RED);
+      window.fillArc(400,200,200,100,0,180);
+
+		//add more code here
+				
+   }
+
+   public void upperBody( Graphics window )
+   {
+	   window.setColor(Color.BLUE);
+	   
+	   window.fillRect(300,200,200,100);
+	   window.setColor(Color.BLACK);
+	   window.drawLine(300,200,200,100);
+	   window.drawLine(500,200,600,100);
+		
+   }
+
+   public void lowerBody( Graphics window )
+   {
+	   window.setColor(Color.GRAY);
+	   window.fillRect(300,350,200,100);
+	   
+	   window.setColor(Color.BLACK);
+	   window.drawLine(300,450,200,500);
+	   window.drawLine(500,450,700,500);
+	   
+   }
+}

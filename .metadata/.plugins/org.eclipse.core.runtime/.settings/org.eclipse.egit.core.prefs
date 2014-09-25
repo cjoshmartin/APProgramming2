@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-GitRepositoriesView.GitDirectories=C\:\\Users\\joshmartin\\Documents\\Ap Computer Science\\ApComputers\\.git;
-RepositorySearchDialogSearchPath=C\:\\Users\\joshmartin\\Documents\\Ap Computer Science\\ApComputers
-=======
-GitRepositoriesView.GitDirectories=D\:\\Documents\\ApComputers\\.git;
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=origin/master
+GitRepositoriesView.GitDirectories=C\:\\Users\\joshmartin\\Documents\\APProgramming2\\.git;D\:\\Documents\\ApComputers\\.git;
 RepositorySearchDialogSearchPath=D\:\\Documents\\ApComputers
->>>>>>> origin/master
 eclipse.preferences.version=1
