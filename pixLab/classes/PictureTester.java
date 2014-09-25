@@ -38,7 +38,7 @@ public class PictureTester
   /** Method to test the collage method */
   public static void testCollage()
   {
-    Picture canvas = new Picture("640x480.jpg");
+    Picture canvas = new Picture("D:/Documents/APProgramming2/pixLab/images/640x480.jpg");
     canvas.createCollage();
     canvas.explore();
   }
@@ -46,7 +46,7 @@ public class PictureTester
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
-    Picture swan = new Picture("swan.jpg");
+    Picture swan = new Picture("D:/Documents/APProgramming2/pixLab/images/swan.jpg");
     swan.edgeDetection(10);
     swan.explore();
   }
@@ -82,7 +82,7 @@ public class PictureTester
     //testMirrorDiagonal();
     //testCollage();
     //testCopy();
-    //testEdgeDetection();
+    testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
     //testEncodeAndDecode();
@@ -91,7 +91,8 @@ public class PictureTester
     //testClearBlueOverValue(200);
     //testGetAverageForColumn(0);
 	 // testmirrorHorizontal();
-	  testermirrorArms();
+	 // testermirrorArms();
+	  //testmirrorHorizontalBotToTop();
   }// end of main
   
   // Josh made methods
@@ -111,6 +112,14 @@ public class PictureTester
 	    
   }// end of test mirror
   
+  public static void testmirrorHorizontalBotToTop()
+  {
+	  Picture beach = new Picture("D:/Documents/APProgramming2/pixLab/images/redMotorcycle.jpg");
+	    beach.mirrorHorizontalBotToTop();
+	    beach.explore();
+	    
+  }// end of test mirror
+  
   public static void testermirrorArms()
   {
 	  Picture snowman = new Picture("C:/Users/joshmartin/Documents/APProgramming2/pixLab/images/snowman.jpg");
@@ -119,6 +128,13 @@ public class PictureTester
 	  snowman.explore();
 	    
   }
-  
+  public static void testMirrorGull()
+  {
+	  //Picture Gull = new Picture("C:/Users/joshmartin/Documents/APProgramming2/pixLab/images/snowman.jpg");
+	  Picture Gull = new Picture("D:/Documents/APProgramming2/pixLab/images/seagull.jpg");
+	  Gull.mirrorGull();
+	  Gull.explore();
+	    
+  }
   
 }// end of class
