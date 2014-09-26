@@ -151,7 +151,7 @@ public class Picture extends SimplePicture
     * @param startCol the start col to copy to
     */
   public void copy(Picture fromPic, 
-                 int startRow, int endRow , int startCol, int endCol )
+                 int startRow, int startCol)
   {
     Pixel fromPixel = null;
     Pixel toPixel = null;
@@ -182,9 +182,9 @@ public class Picture extends SimplePicture
     Picture flower1 = new Picture("D:/Documents/APProgramming2/pixLab/images/robot.jpg");
     Picture flower2 = new Picture("D:/Documents/APProgramming2/pixLab/images/flower2.jpg");
     Picture flower3 = new Picture("D:/Documents/APProgramming2/pixLab/images/kitten2.jpg");
-    this.copy(flower1,0,0,0,0);
-    this.copy(flower2,100,0,0,0);
-    this.copy(flower3,200,0,0,0,0);
+    this.copy(flower1,0,0);
+    this.copy(flower2,100,0);
+    this.copy(flower3,200,0);
     Picture flowerNoBlue = new Picture(flower2);
     flowerNoBlue.zeroBlue();
     this.copy(flowerNoBlue,300,0);
@@ -206,7 +206,6 @@ public class Picture extends SimplePicture
     Pixel bottomPixel = null;
     Pixel[][] pixels = this.getPixels2D();
     Color rightColor = null;
-    Color bottomColor = null;
     for (int row = 0; row < pixels.length; row++)
     {
       for (int col = 0; 
@@ -222,21 +221,22 @@ public class Picture extends SimplePicture
           leftPixel.setColor(Color.WHITE);
       }
     }
-    for ( int row = 0; row < pixels[0].length-1; row++)
+    for (int row = 0; row < pixels[0].length-1; row++)
     {
-      for ( int col = 0;  col < pixels.length; col++)
+      for (int col = 0; 
+           col < pixels.length; col++)
       {
-        topPixel = pixels[row][col + 1];
+        topPixel = pixels[row + 1][col];
         bottomPixel = pixels[row][col];
-        bottomColor = topPixel.getColor();
-        if (topPixel.colorDistance(bottomColor) > 
+        rightColor = topPixel.getColor();
+        if (topPixel.colorDistance(rightColor) > 
             edgeDist)
         	bottomPixel.setColor(Color.BLACK);
         else
         	bottomPixel.setColor(Color.WHITE);
       }
     }
-  }// end of edgeDetction 
+  }
   
   
   /* Main method for testing - each class in Java can have a main 

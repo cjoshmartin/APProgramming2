@@ -151,7 +151,7 @@ public class Picture extends SimplePicture
     * @param startCol the start col to copy to
     */
   public void copy(Picture fromPic, 
-                 int startRow, int endRow , int startCol, int endCol )
+                 int startRow, int startCol)
   {
     Pixel fromPixel = null;
     Pixel toPixel = null;
@@ -182,9 +182,9 @@ public class Picture extends SimplePicture
     Picture flower1 = new Picture("D:/Documents/APProgramming2/pixLab/images/robot.jpg");
     Picture flower2 = new Picture("D:/Documents/APProgramming2/pixLab/images/flower2.jpg");
     Picture flower3 = new Picture("D:/Documents/APProgramming2/pixLab/images/kitten2.jpg");
-    this.copy(flower1,0,0,0,0);
-    this.copy(flower2,100,0,0,0);
-    this.copy(flower3,200,0,0,0,0);
+    this.copy(flower1,0,0);
+    this.copy(flower2,100,0);
+    this.copy(flower3,200,0);
     Picture flowerNoBlue = new Picture(flower2);
     flowerNoBlue.zeroBlue();
     this.copy(flowerNoBlue,300,0);
@@ -226,7 +226,7 @@ public class Picture extends SimplePicture
     {
       for ( int col = 0;  col < pixels.length; col++)
       {
-        topPixel = pixels[row][col + 1];
+        topPixel = pixels[row][col];
         bottomPixel = pixels[row][col];
         bottomColor = topPixel.getColor();
         if (topPixel.colorDistance(bottomColor) > 
