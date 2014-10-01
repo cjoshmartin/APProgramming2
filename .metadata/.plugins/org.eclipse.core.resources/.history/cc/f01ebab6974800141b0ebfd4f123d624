@@ -1,0 +1,14 @@
+import java.util.Scanner ;
+
+
+public class project24 {
+ int mins = 60 * 60;
+ int hours = 24;
+ int days = 365;
+ 
+ 
+ int anwser = mins* hours* days ;
+ String strI = Integer.toString(anwser);
+ System.out.println(strI);
+ 
+}
