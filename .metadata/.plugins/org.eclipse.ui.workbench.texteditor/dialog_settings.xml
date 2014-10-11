@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value=" public void copy(Picture sourcePicture, &#x0D;&#x0A;&#x09;          int startX, int startY, &#x0D;&#x0A;&#x09;          int endX, int endY, &#x0D;&#x0A;&#x09;          int targetStartX, int targetStartY)&#x0D;&#x0A;&#x09;{&#x0D;&#x0A;&#x09;Pixel sourcePixel = null;&#x0D;&#x0A;&#x09;Pixel targetPixel = null;&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;// loop through the x values&#x0D;&#x0A;&#x09;for (int x = startX, tx = targetStartX; &#x0D;&#x0A;&#x09;x &lt; endX &amp;&amp; x &lt; sourcePicture.getWidth() &amp;&amp; &#x0D;&#x0A;&#x09;            tx &lt; this.getWidth();&#x0D;&#x0A;&#x09;x++, tx++)&#x0D;&#x0A;&#x09;{&#x0D;&#x0A;&#x09;// loop through the y values&#x0D;&#x0A;&#x09;for (int y = startY, ty = targetStartY; &#x0D;&#x0A;&#x09;  y &lt; endY &amp;&amp; y &lt; sourcePicture.getHeight() &amp;&amp; &#x0D;&#x0A;&#x09;              ty &lt; this.getHeight();&#x0D;&#x0A;&#x09;  y++, ty++)&#x0D;&#x0A;&#x09;{&#x0D;&#x0A;&#x09;sourcePixel = sourcePicture.getPixel(x,y);&#x0D;&#x0A;&#x09;targetPixel = this.getPixel(tx,ty);&#x0D;&#x0A;&#x09;targetPixel.setColor(sourcePixel.getColor());&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;" key="selection"/>
+		<item value="int" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Int"/>
 			<item value="myCollage"/>
 			<item value="copy"/>
 			<item value="mirrorGull"/>
@@ -15,9 +16,9 @@
 			<item value="mirrorHorizontalBotToTop"/>
 			<item value="mirrorHorizontal"/>
 			<item value=" public void mirrorVerticalRightToLeft"/>
-			<item value="mirrorVerticalRightToLeft"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Double"/>
 			<item value="/"/>
 			<item value="row"/>
 			<item value="col"/>

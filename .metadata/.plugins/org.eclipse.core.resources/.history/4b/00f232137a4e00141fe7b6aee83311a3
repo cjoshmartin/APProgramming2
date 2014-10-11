@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+public class project42 {
+	public static void main(String [] args)
+	{
+		Scanner reader = new Scanner(System.in);
+		int a,b,c =0;
+		System.out.println("enter the length of the hypotenuse ::");
+		c = reader.nextInt();
+		System.out.println("enter the length of the A::");
+		a = reader.nextInt();
+		System.out.println("enter the length of the B::");
+		b = reader.nextInt();
+		
+		if ((pow(a, 2)+ pow(b, 2)))
+		
+		
+		
+	}//end of public
+	
+
+}// end of class
