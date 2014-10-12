@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+import static java.lang.Math.*;
+
+public class testprojects {
+	public static void main(String [] args)
+	{
+	
+		String stuff = "10 cat 3.4 frog 3442 3.33";
+		Scanner chopIt = new Scanner(stuff);
+		System.out.println(chopIt.nextInt());
+		System.out.println(chopIt.next());
+		System.out.println(chopIt.nextDouble());
+		System.out.println(chopIt.next());
+		System.out.println(chopIt.nextDouble());
+		System.out.println(chopIt.next());
+
+	}
+
+}

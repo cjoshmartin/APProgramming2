@@ -1,0 +1,16 @@
+import static java.lang.Math.*;
+public class project49 {
+	public static void main(String [] args)
+	{
+	 String pow2 = null, pow3 = null;
+	 for (int i = 1; i <= 10 ; i++)
+	 {
+	  pow2 =  pow2 + " " + Math.pow(i,2) + " "  ;
+	 pow3 = pow3 + " " + Math.pow(i,3) + " " ;
+	 }
+	 System.out.println("The power of 2’s :" + pow2);
+	 System.out.println(" The power of 3’s :"  + pow3);
+
+	
+	}
+}
