@@ -7,7 +7,7 @@ public class project49 {
 	public static void main(String [] args) throws FileNotFoundException
 	{
 		int base,exp =0;
-		Scanner reader = new Scanner(new File("textfile.text"));
+		Scanner reader = new Scanner(new File("textfile.txt"));
 		
 		System.out.println("Enter the base ::");
 		base = reader.nextInt();
