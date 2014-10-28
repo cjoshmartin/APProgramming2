@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+import static java.lang.Math.*;
+
+public class Project4 {
+
+	public static void main(String [] args)
+	{
+		double booksale = 0.0;
+		Scanner reader = new Scanner(System.in);
+		
+		System.out.println("end the price of the book ::" );
+		double bookPri = reader.nextDouble();
+		
+		System.out.println("The markup is::" + " $" + bookPri*.10);
+		
+		System.out.println("The whole sale price is::" + " $" + (bookPri - (bookPri*.10)));
+		
+		 booksale = booksale + bookPri;
+		 
+		 System.out.println("The Total  cost is is::" + " $" + booksale);
+		 
+		System.out.println("do you have anyother book? ::");
+		String awn = reader.next(); 
+		
+		while (awn != "no")
+		{
+			System.out.println("end the price of the book ::");
+			 bookPri = reader.nextDouble();
+			
+			System.out.println("The markup is::" + " $" + bookPri*.10);
+			
+			System.out.println("The whole sale price is::" + " $" + (bookPri - (bookPri*.10)));
+			
+			 booksale = booksale + bookPri;
+			 
+			 System.out.println("The Total  cost is is::" + " $" + booksale);
+			 
+			System.out.println("do you have anyother book? ::");
+			 awn = reader.next(); 
+			
+		}
+		
+	}// end of main
+}// end of project 4

@@ -1,3 +1,5 @@
+//Project 4-2
+
 import java.util.Scanner;
 import static java.lang.Math.*;
 public class project42 {
