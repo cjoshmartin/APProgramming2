@@ -22,7 +22,14 @@ public class Student {
    }
     
    //Other methods
+   ///defualt constrotr - because it takes no parameters
+   public Student(){
+ // asdditional constructor
+public student(string nm, int t1, int t2,int t3)
 
+//copy constructor 
+public student(student){
+}
    public void setName (String nm){
    //Set a student's name
       name = nm;
