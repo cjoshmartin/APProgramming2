@@ -1,9 +1,9 @@
-
+//project 6-3
 public class fractiontester {
 	
 	 public static void main(String args[])
 	 {
-		 Fraction, f1,f2,f3,f4,f5,f6,f7,f8; 
+		 Fraction f1,f2,f3,f4,f5,f6,f7,f8; 
 		 
 		 f1 = new Fraction();
 		 f2 = new Fraction(2,3);
