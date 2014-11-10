@@ -1,0 +1,16 @@
+//project 6-5
+public class BackAccounttester {
+
+	public static void main(String args[])
+	 {
+		int total = 0;
+		for(int c=1; c<6; c++)
+		   for(int d=1; d<=c; d++)
+		      if(d%2==1)
+		         total = total + d;
+		System.out.println(total);
+
+
+	 }
+	
+}// end of class

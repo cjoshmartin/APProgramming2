@@ -1,0 +1,19 @@
+//project 6-5
+public class BackAccounttester {
+
+	public static void main(String args[])
+	 {
+		String s = "toad";
+		for(int e=0; e<s.length(); e++)
+		{ 
+		   for(int f=0;f<=e;f++){
+		      System.out.print(s.charAt(f));
+		   }
+		   System.out.println();
+		}
+
+
+
+	 }
+	
+}// end of class
