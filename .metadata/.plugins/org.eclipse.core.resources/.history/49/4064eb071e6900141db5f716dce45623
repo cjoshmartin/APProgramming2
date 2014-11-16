@@ -1,0 +1,13 @@
+//project 6-5
+public class BackAccounttester {
+
+	public static void main(String args[])
+	 {
+		BackAccount f1,f2;
+		f1 = new BackAccount("josh", 88.95);
+
+
+
+	 }
+	
+}// end of class
