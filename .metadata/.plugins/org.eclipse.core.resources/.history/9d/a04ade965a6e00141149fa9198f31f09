@@ -1,0 +1,38 @@
+
+public class Book {
+
+	private String author, title;
+	
+	public Book(){
+	author ="";
+	title ="";
+		
+		
+	}
+	
+	public Book(String a, String b)
+	{
+		author = a;
+		title = b;
+		
+	}
+	
+	public void SetAuthor (String A){
+		
+		author = A;
+	}
+	
+	public void SetTitle (String A){
+			
+			title = A;
+		}
+	
+	public char getFirstletAuthor() {
+		return author.charAt(0);
+		
+	}
+	
+	
+	
+	
+}// end of class
