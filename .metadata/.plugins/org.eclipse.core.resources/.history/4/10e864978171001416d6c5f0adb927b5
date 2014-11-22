@@ -8,45 +8,7 @@ public class Parton {
 	public Parton(String n){
 		name =n;
 	}
-	public boolean returnborrow(Book b){
-		if (b.getTitle().equals(book1.getTitle())) 
-
-		{ 
-
-		book1 = null; 
-
-		return true; 
-
-		} 
-
-		else if (b.getTitle().equals(book2.getTitle())) 
-
-		{ 
-
-		book2 = null; 
-
-		return true; 
-
-		} 
-
-		else if (b.getTitle().equals(book3.getTitle()))
-
-		{ 
-
-		book3 = null; 
-
-		return true; 
-
-		} 
-
-		else 
-
-		{ 
-
-		return false; 
-
-		}
-	}
+	public hasborrow()
 	public boolean borrow(Book b)
 	{
 		if(book1==null)

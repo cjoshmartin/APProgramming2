@@ -8,7 +8,7 @@ public class Parton {
 	public Parton(String n){
 		name =n;
 	}
-	public boolean returnborrow(Book b){
+	public returnborrow(Book b){
 		if (b.getTitle().equals(book1.getTitle())) 
 
 		{ 

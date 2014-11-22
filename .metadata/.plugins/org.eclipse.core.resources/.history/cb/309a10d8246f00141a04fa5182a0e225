@@ -1,0 +1,15 @@
+
+public class test {
+
+	
+	public static void main(String args[])
+	 {
+		int one=98;
+		
+		
+		out.println(String.format("%-10d",one));
+		
+		
+	 }
+	
+}
