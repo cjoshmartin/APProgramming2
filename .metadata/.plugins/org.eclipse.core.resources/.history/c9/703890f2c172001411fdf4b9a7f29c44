@@ -1,0 +1,6 @@
+ import java.util.Scanner;
+ 
+public class Project71 {
+  System.out.print(" I'm think about a number between 1 and 100." ); 
+	 
+}

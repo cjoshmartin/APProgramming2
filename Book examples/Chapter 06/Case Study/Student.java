@@ -20,7 +20,26 @@ public class Student {
       test2 = 0;
       test3 = 0;
    }
+    public Student(String a) 
+    {
+    	name = a;
+    	test1 = 0;
+        test2 = 0;
+        test3 = 0;
+    }
+    public Student( int b, int c, int d){
+    	name = "";
+    	test1 = b;
+    	test2 = c;
+    	test3 = d;
+    }
     
+    public Student( String a, int b, int c, int d){
+    	name = a;
+    	test1 = b;
+    	test2 = c;
+    	test3 = d;
+    }
    //Other methods
 
    public void setName (String nm){
@@ -61,6 +80,26 @@ public class Student {
       if (test2 > highScore) highScore = test2;
       if (test3 > highScore) highScore = test3;
       return highScore;
+   }
+   //Project 6-2
+   public String validateData()
+   {
+	   String str ="";
+	   if ((test1 > 0 && test1 < 100)&& (test2 > 0 && test2 < 100) && (test3 > 0 && test3 < 100) && name!="" )
+	   {
+		   str ="null";
+	   }
+	   else if ((test1 < 0 || test1 > 100)|| (test2 < 0 || test2 > 100) || (test3 < 0 || test3 > 100))
+	   {  
+		   str = "SORRY: Must have 0 <= test score <= 100";
+	   }
+
+	   else if (name == "")
+	   {
+		   str = "SORRY: name required";
+				   
+	   }
+	return str;
    }
     
    public String toString(){

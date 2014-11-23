@@ -1,4 +1,4 @@
-
+// Project 6-6 (book)
 public class Book {
 
 	private String author, title;

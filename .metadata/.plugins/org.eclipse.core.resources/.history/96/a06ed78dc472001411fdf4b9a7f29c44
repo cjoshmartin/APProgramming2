@@ -1,0 +1,12 @@
+ import java.util.Scanner;
+ import java.util.Random;
+ 
+public class Project71 {
+	Scanner reader = new Scanner(System.in);
+	 Random randomGenerator = new Random();
+	int randomInt = randomGenerator.nextInt(101)
+	
+	System.out.println(" I'm think about a number between 1 and 100." ); 
+	
+	 
+}
