@@ -1,9 +1,10 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 >>>>>>>=origin/master
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 PROBLEMS_FILTERS_MIGRATE=true
 SAVE_ALL_BEFORE_BUILD=true
 eclipse.preferences.version=1
-platformState=1408105705248
+platformState=1410319752474
 quickStart=false
 tipsAndTricks=true

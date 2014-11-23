@@ -1,7 +1,11 @@
- import java.util.Scanner;
- import java.util.Random;
- 
-public class Project71 {
+// help writing this
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Project72 {
+
 	String Guess = "";
 	int num;
 	Scanner reader = new Scanner(System.in);

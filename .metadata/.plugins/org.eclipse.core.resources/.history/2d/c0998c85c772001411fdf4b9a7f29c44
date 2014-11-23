@@ -8,7 +8,7 @@ public class Project71 {
 	 Random randomGenerator = new Random();
 		int randomInt = randomGenerator.nextInt(101)
 		
-		//CAN"T GET THIS SYSTEM OUT TO WORK!!!!		
+				
 		System.out.println(" I'm think about a number between 1 and 100." ); 
 		 num = reader.nextInt();
 		
