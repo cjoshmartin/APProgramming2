@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="262" key="DIALOG_Y_ORIGIN"/>
-		<item value="381" key="DIALOG_HEIGHT"/>
-		<item value="1457" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="true" key="wrap"/>
 		<item value="false" key="isRegEx"/>
+		<item value="output += &quot; &quot; +" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
-		<item value="&amp;&amp;" key="selection"/>
 		<list key="findhistory">
+			<item value="output ="/>
+			<item value="grade"/>
+			<item value="&gt;"/>
+			<item value="else"/>
 			<item value="||"/>
 			<item value="out.println"/>
 			<item value="awn"/>
 			<item value="Int"/>
-			<item value="myCollage"/>
-			<item value="copy"/>
-			<item value="mirrorGull"/>
-			<item value="mirrorArms"/>
 		</list>
 		<list key="replacehistory">
+			<item value="output += &quot; &quot; +"/>
+			<item value="output += "/>
+			<item value="a"/>
+			<item value="&lt;"/>
+			<item value=""/>
 			<item value="&amp;&amp;"/>
 			<item value="System.out.println"/>
 			<item value="base"/>
-			<item value="Double"/>
-			<item value="/"/>
-			<item value="row"/>
-			<item value="col"/>
-			<item value="secondImage"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="172" key="DIALOG_Y_ORIGIN"/>
+		<item value="711" key="DIALOG_X_ORIGIN"/>
 	</section>
 </section>

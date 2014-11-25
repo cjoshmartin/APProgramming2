@@ -4,12 +4,12 @@ public class test {
 	
 	public static void main(String args[])
 	 {
-		int one=98;
-		double dec=2.567628;
-		
-		
-		System.out.println(String.format("%010d",one));
-		
+		for(int i= 0;i<10;i++)
+		{
+			for( int t= 0;t<10;t++)
+				System.out.print("*");
+		System.out.println();	
+		}
 		
 	 }
 	

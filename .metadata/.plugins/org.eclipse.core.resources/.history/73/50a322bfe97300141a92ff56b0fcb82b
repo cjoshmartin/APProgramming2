@@ -1,0 +1,9 @@
+
+public class project74 {
+
+	private String grades;
+	public static String getLetterGrade(String a){
+		
+	}
+	
+}

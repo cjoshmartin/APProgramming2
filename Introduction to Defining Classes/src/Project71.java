@@ -1,14 +1,17 @@
- import java.util.Scanner;
- import java.util.Random;
+//Project 7-1  
+import java.util.Scanner;
+import java.util.Random;
  
 public class Project71 {
+	public static void main(String args[])
+	 {
 	String Guess = "";
 	int num;
 	Scanner reader = new Scanner(System.in);
 	 Random randomGenerator = new Random();
-		int randomInt = randomGenerator.nextInt(101)
+		int randomInt = randomGenerator.nextInt(101);
 		
-		//CAN"T GET THIS SYSTEM OUT TO WORK!!!!		
+			
 		System.out.println(" I'm think about a number between 1 and 100." ); 
 		 num = reader.nextInt();
 		
