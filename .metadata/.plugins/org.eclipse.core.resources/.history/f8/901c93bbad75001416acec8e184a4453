@@ -1,0 +1,39 @@
+// Project 7-9 
+
+ import java.util.Scanner;
+ import java.lang.Math;
+ public class Project79 {
+	 public static void main(String args[])
+	 {
+	double aT,r,p,n,t= 0.0;
+	n = 4.0;
+	Scanner reader = new Scanner(System.in);
+	/*
+	System.out.print("enter the Principal:: ");
+	p = reader.nextDouble();
+	System.out.println();
+	
+	System.out.print("enter the rate:: ");
+	r = reader.nextDouble()* Math.pow(10,-2) ;
+	System.out.println();
+	*/
+	System.out.print("enter the how long:: ");
+	t = reader.nextDouble() ;
+	System.out.println();
+	
+	
+	//aT = p(1 + (r/n))^(n*t);
+	
+	
+		for (int f= 0;f <= t; f++ )
+		{
+			System.out.println("20"+(14+f));
+			
+		}
+		
+
+	
+	
+}// end of main
+
+ }// end of Project 7-9 
