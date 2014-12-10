@@ -1,7 +1,0 @@
-// Project 7-9 
-
-public class Project79 {
-	double aT,r,p,n= 0.0;
-	
-	aT = p(1 + (r/n))^(n*t);
-}

@@ -1,0 +1,17 @@
+
+public class Project102 {
+
+	public double arraydoubles(double[] a)
+	{ double sum = 0, aver = 0;
+		int count = 0;
+		
+		for (int i =0; i < a.length;i++ )
+		{
+			sum += a[i];
+			count++;
+		}
+		
+		aver = sum /count;
+		return aver;
+	}// end of double
+}

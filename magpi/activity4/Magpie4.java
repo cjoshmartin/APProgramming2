@@ -90,9 +90,9 @@ public class Magpie4
 			statement = statement.substring(0, statement
 					.length() - 1);
 		}
-		int psn = findKeyword (statement, "I want to", 0);
+		int psn = findKeyword (statement, "I want ", 0);
 		String restOfStatement = statement.substring(psn + 9).trim();
-		return "What would it mean to " + restOfStatement + "?";
+		return "Would you really be happy if you " + restOfStatement + "?";
 	}
 
 	

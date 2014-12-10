@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class project101 {
+
+	 public static void main(String args[])
+	 {
+		 int evenList[], oddList[],negativeList[];
+		 int num, evenPlace, oddPlace, negativePlace = 0;
+		 Scanner reader = new Scanner(System.in);
+		 
+		 for (int i =0; i < 10; i++)
+		 {
+			 System.out.println(" enter in a number:: ");
+			 num = reader.nextInt();
+			 
+			 if (num % 2 ==0)
+				 evenList[] 
+			 
+			 
+		 }// end of for loop
+		 
+	 }// end of main
+}// end of project 10-1 class

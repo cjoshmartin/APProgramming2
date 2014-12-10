@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class project101 {
+
+	 public static void main(String args[])
+	 {
+		 int[] evenList  = new int[10];
+		 int [] oddList  = new int[10];
+		 int[] negativeList = new int[10];
+		 int num;
+		 //evenPlace, oddPlace, negativePlace = 0;
+		 Scanner reader = new Scanner(System.in);
+		 
+		 for (int i =0; i < 10; i++)
+		 {
+			 System.out.println(" enter in a number:: ");
+			 num = reader.nextInt();
+			 
+			 if (num % 2 ==0)
+				 evenList[i] = num; 
+			 else if (num % 2 ==1)
+				 oddList[i] = num;
+			 else if ( num <0)
+				 negativeList[i] = num;
+				 
+			 
+		 }// end of for loop
+		 
+		 System.out.print(" Even numbers are:: " + Arrays.toString(evenList) + " \n Odd numbers are:: " + Arrays.toString(oddList) + "\n The negitves are:: " + Arrays.toString(negativeList));
+		 
+	 }// end of main
+}// end of project 10-1 class
