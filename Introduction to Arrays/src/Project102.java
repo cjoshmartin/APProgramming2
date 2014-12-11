@@ -1,3 +1,4 @@
+// project 10-2
 import java.util.Scanner;
 
 public class Project102 {
@@ -40,4 +41,4 @@ public class Project102 {
 		 
 	 }// end of main
 	
-}// end of class 
+}// end of class project 10-2
