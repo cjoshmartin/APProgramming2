@@ -5,7 +5,7 @@ Represents a student with a name and several test scores
 */
 
 public class Student{
-
+	static private int studentCount = 0;
    /**
    The minimum score (0)
    */
@@ -22,7 +22,8 @@ public class Student{
    Default: name is "" and each of 3 scores is 0
    */
    public Student(){
-      this("");
+	   this("");
+	   studentCount++;
    }
 
    /**
@@ -31,6 +32,7 @@ public class Student{
    */
    public Student(String nm){
       this(nm, 3);
+      studentCount++;
    }
 
    /**
@@ -43,7 +45,9 @@ public class Student{
       tests = new int[n];
       for (int i = 0; i < tests.length; i++)
          tests[i] = 0;
+      studentCount++;
    }
+  
 
    /**
    Name is nm and the scores are taken from array t
@@ -55,6 +59,7 @@ public class Student{
       tests = new int[t.length];
       for (int i = 0; i < tests.length; i++)
          tests[i] = t[i];
+   studentCount++;
    }
     
    /**
@@ -63,8 +68,12 @@ public class Student{
    */
    public Student(Student s){
       this(s.name, s.tests);
+      studentCount++;
    }
-    
+    public static int getStudentCount(){
+    	
+    	return studentCount;
+    }
    /**
    Changes the studentÕs name
    @param nm the new name

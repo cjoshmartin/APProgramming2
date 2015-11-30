@@ -23,7 +23,12 @@ public class Circle extends AbstractShape {
    public double area() {
       return Math.PI * radius * radius;
    }
-
+///Circle . java
+   public double perimeter(){
+	   return 2 *Math.PI * radius ;
+   }
+   
+   
    public void draw (Pen p) {
       double side = 2.0 * Math.PI * radius / 120.0;
       p.up();

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Activity1 Starter Code"/>
+	<classpathentry kind="src" path="Activity10  Starter Code"/>
+	<classpathentry kind="src" path="Activity11  Starter Code"/>
+	<classpathentry kind="src" path="Activity2  Starter Code"/>
+	<classpathentry kind="src" path="Activity3  Starter Code"/>
+	<classpathentry kind="src" path="Activity4  Starter Code"/>
+	<classpathentry kind="src" path="Activity5  Starter Code"/>
+	<classpathentry kind="src" path="Activity6  Starter Code"/>
+	<classpathentry kind="src" path="Activity7  Starter Code"/>
+	<classpathentry kind="src" path="Activity8  Starter Code"/>
+	<classpathentry kind="src" path="Activity9  Starter Code"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -2,6 +2,8 @@ import TurtleGraphics.Pen;
 
 public interface Shape {
    public double area();
+   //shape.java
+   public double perimeter();
    public void   draw (Pen p);
    public double getXPos();
    public double getYPos();

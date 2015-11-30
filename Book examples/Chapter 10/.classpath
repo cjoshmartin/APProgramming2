@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Case Study"/>
+	<classpathentry excluding="Case Study/|Example10/1/|Example10.1/|Example10/2/|Example10.2/|Example10/3/|Example10.3/|Example10/4/|Example10.4/" kind="src" path=""/>
+	<classpathentry kind="src" path="Example10.1"/>
+	<classpathentry kind="src" path="Example10.2"/>
+	<classpathentry kind="src" path="Example10.3"/>
+	<classpathentry kind="src" path="Example10.4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

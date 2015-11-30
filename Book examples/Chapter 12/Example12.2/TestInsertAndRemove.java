@@ -34,12 +34,29 @@ public class TestInsertAndRemove{
    // Definitions of array methods go here
    private static boolean insertItem(Object[] array, int logicalSize, 
                                      int targetIndex, Object newItem){
-      return true;
+      
+	  if (logicalSize== array.length)
+		  return false;
+	  if(targetIndex < 0 || targetIndex > logicalSize)
+		  return false;
+	  for(int i= logicalSize; i > targetIndex; i--)
+		  array[i]=a[i-1];
+	  array[targetIndex] = newItem;
+	  logicalSize++;
+	   return true;
 
    }
 
    private static boolean removeItem(Object[] array, int logicalSize, 
                                      int targetIndex){
+	  
+	   if(targetIndex < 0 || targetIndex >= logicalSize)
+		   return false;
+	   
+	   for (int i = targetIndex; i < logicalSize - 1; i++)
+		   array[i] = array[i+1];
+	   
+	   logicalSize-- ;
       return true;                                   
    }
 

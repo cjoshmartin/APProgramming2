@@ -36,15 +36,29 @@ public class PlayTTT{
          //    display an error message
          // Else
          //    display the board and switch players
+         
+         //chapter 12-5 
          boolean success = board.placeXorO(player, row, column);
          if (!success)
             System.out.println("Error: cell already occupied!");
          else{
             System.out.println(board);
             if (player == 'X')
-               player = 'O';
-            else            
-               player = 'X';
+                player = 'O';
+             else            
+                player = 'X'; 
+            
+            if (!board.full()){
+            int randomRow, randomcol;
+            do{
+            	randomRow = gen.nextInt(3) +1;
+            	randomcol=gen.nextInt(3) +1;;
+            	success = board.placeXorO(player, randomRow, randomcol);
+            	
+            }while (success == false);
+            System.out.println(board);
+            } 
+          
          }
 
       }

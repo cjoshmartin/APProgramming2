@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Example11.1"/>
+	<classpathentry kind="src" path="Example11.2"/>
+	<classpathentry kind="src" path="Example11.5"/>
+	<classpathentry kind="src" path="Example11.6"/>
+	<classpathentry kind="src" path="Example11.7"/>
+	<classpathentry kind="src" path="Example11.8"/>
+	<classpathentry kind="src" path="Student"/>
+	<classpathentry kind="src" path="TurtleGraphics"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="TurtleGraphics.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
